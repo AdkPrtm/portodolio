@@ -27,3 +27,6 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     # - run: npm test
+    - name: Change Directory
+      run: cd /home/adkprtm/actions-runner/_work/portofolio/portofolio
+    - run: pm2 restart 0

@@ -1,4 +1,4 @@
-import { SiLinkedin, SiX, SiGithub, SiFlutter, SiExpress, SiLaravel, SiMikrotik, SiOdoo, SiReact, SiUnity, SiNodedotjs } from "react-icons/si";
+import { SiLinkedin, SiX, SiGithub, SiFlutter, SiExpress, SiLaravel, SiUnity, SiNodedotjs, SiNextdotjs, SiMysql, SiTailwindcss } from "react-icons/si";
 
 export const socials = [
     {
@@ -54,8 +54,8 @@ export const skillsData = [
         icon: SiFlutter,
     },
     {
-        title: "React",
-        icon: SiReact,
+        title: "NextJs",
+        icon: SiNextdotjs,
     }, {
         title: "ExpressJs",
         icon: SiExpress,
@@ -63,10 +63,10 @@ export const skillsData = [
         title: "Laravel",
         icon: SiLaravel,
     }, {
-        title: "Mikrotik",
-        icon: SiMikrotik,
+        title: "MySql",
+        icon: SiMysql,
     }, {
-        title: "Odoo",
-        icon: SiOdoo,
+        title: "Tailwind",
+        icon: SiTailwindcss,
     },
 ]
