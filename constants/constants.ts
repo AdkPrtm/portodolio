@@ -1,4 +1,4 @@
-import { SiLinkedin, SiX, SiGithub, SiFlutter, SiExpress, SiLaravel, SiUnity, SiNodedotjs, SiNextdotjs, SiMysql, SiTailwindcss } from "react-icons/si";
+import { SiLinkedin, SiX, SiGithub, SiFlutter, SiExpress, SiLaravel, SiUnity, SiNodedotjs, SiNextdotjs, SiMysql, SiTailwindcss, SiMongodb, SiNginx } from "react-icons/si";
 
 export const socials = [
     {
@@ -20,6 +20,12 @@ export const socials = [
 
 export const projects = [
     {
+        title: "Evently",
+        tech: [SiNextdotjs, SiMongodb, SiNginx],
+        link: 'https://evently.andhikawidiarto.my.id/',
+        cover: '/image/evently.png',
+        background: 'bg-green-500',
+    }, {
         title: "AR Pengenalan Candi",
         tech: [SiFlutter, SiUnity,],
         link: 'https://play.google.com/store/apps/details?id=com.andhikahouse.pengenalancandi',
@@ -31,7 +37,7 @@ export const projects = [
         tech: [SiFlutter, SiNodedotjs, SiExpress],
         link: 'https://github.com/AdkPrtm/titip-itci',
         cover: '/image/notfound.jpg',
-        background: 'bg-indigo-500',
+        background: 'bg-green-500',
     }, {
         title: "Ewallet APP Clone Mobile and Backend",
         tech: [SiFlutter, SiLaravel],

@@ -29,4 +29,4 @@ jobs:
     # - run: npm test
     - name: Change Directory
       run: cd /home/adkprtm/portofolio/_work/portofolio/portofolio
-    # - run: pm2 restart 0
+    - run: pm2 restart 0
