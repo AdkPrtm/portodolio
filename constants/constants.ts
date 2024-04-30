@@ -38,13 +38,7 @@ export const projects = [
         link: 'https://github.com/AdkPrtm/ewallet-app',
         cover: '/image/notfound.jpg',
         background: 'bg-indigo-500',
-    }, {
-        title: "XXX",
-        tech: [SiFlutter,],
-        link: 'https://andhika.my.id',
-        cover: '/image/notfound.jpg',
-        background: 'bg-indigo-500',
-    },
+    }
 ]
 
 
